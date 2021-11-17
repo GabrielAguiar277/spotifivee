@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../view/css/formStyle.css">
+    <link rel="stylesheet" href="./view/css/formStyle.css">
     <title>Login - Spotifive</title>
 </head>
 <body>
@@ -25,6 +25,6 @@
         </form>
     </div>
 
-    <script src="../js/label.js"></script>
+    <script src="./js/label.js"></script>
 </body>
 </html>
