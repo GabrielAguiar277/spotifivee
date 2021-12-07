@@ -20,6 +20,7 @@
                 <label for="pass" class="lb_pass">Senha</label>
                 <input type="password" class="inp_pass" id="pass" onfocus="labelIn('lb_pass')" onblur="labelOut('lb_pass', 'inp_pass')">
             </div>
+            <div class="create">Não tem uma conta? <span><a href="./registerForm.php">Crie uma agora!<a></span></div>
 
             <button type="submit">Entrar</button>
         </form>

@@ -23,6 +23,21 @@ body{
     max-width: 131px;
 }
 
+.user-main-pic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #B3B3B3 0.1px
+}
+
+.user-main-pic img{
+    width: 150px;
+    border-radius: 150px;
+    border: solid #1db954 3px;
+}
+
 .side_bar-menu{
     background-color: black;
     width: 241px;
@@ -101,6 +116,12 @@ main .row .row-card .card{
     padding: 16px;
     border-radius: 4px;
     margin-right: 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+main .row .row-card .card:hover{
+    background-color: #353434;
 }
 
 main .row .row-card .card img{
@@ -155,6 +176,7 @@ main .row .row-card .card span{
     display: flex;
     align-items: center;
     font-size: 12px;
+    margin-right: auto;
 }
 
 .bottom-menu .song-status img{
@@ -174,4 +196,118 @@ main .row .row-card .card span{
 .bottom-menu .fas{
     color: #1db954;
     font-size: 16px;
+}
+
+
+.song-player{
+    max-width: 722px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sound-status{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.sound-status button{
+    background: none;
+    border: none;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.volume-bar{
+    width: 93px;
+    height: 12px;
+    padding: 4px 0; 
+}
+
+.progress{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+
+.controller-icon{
+    background: none;
+    height: 32px;
+    width: 32px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+.button-controller{
+    fill: #fff;
+}
+
+.controller-icon:hover .button-controller{
+    fill: #ccc9c9; 
+}
+
+
+.controller-icon .player{
+    fill: #181818;
+    background: #fff;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+}
+
+.controller-icon .player:hover{
+    fill: #181818;
+}
+
+.player-controller{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.player-controller__buttons{
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 12px;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.final-music, .state-time{
+    font-size: 10px;
+    color: #5c5c5c;
+}
+
+.final-music{
+    margin-left: 12px;
+}
+
+.state-time{
+    margin-right: 12px;
+}
+
+.progress-bar__audio{
+    height: 100%;
+    width: 0;
+    background-color: #1db954;
+    transition: 0.6s;
+    border-radius: 50px;
 }

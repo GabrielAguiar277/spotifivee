@@ -1,5 +1,20 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function inserirUsuarioBanco($conexao,$senha,$email){
 
 $opcao = ['cost' => 8];
@@ -17,9 +32,9 @@ function listaTudoUsuario($conexao){
     return $resultado;
 }
 
-function listaUsuarioCodigo($conexao, $codigoUsu){
-    $query = "select * from tb_usuario where Id_usua = "
-}
+// function listaUsuarioCodigo($conexao, $codigoUsu){
+//     $query = "select * from tb_usuario where Id_usua = "
+// }
 
 function listaUsuarioEmail($conexao, $emailUsu){
     $query = "select * from tb_usuario where Email_Usua like '%{$emailUsu}%'";
